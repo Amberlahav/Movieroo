@@ -2,7 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import './index.css';
 import * as serviceWorker from './serviceWorker';
+import SortableComponent from './SortableComponent';
+import Dashboard from './Dashboard';
+import Landingpage from './Landingpage';
+import Results from './Results';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

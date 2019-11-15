@@ -20,3 +20,73 @@
 .App-link {
   color: #09d3ac;
 }
+
+.main-btn {
+  padding: 5px;
+  background: skyblue;
+  border: none;
+  border-radius: 2px;
+  text-transform: uppercase;
+  transition: all ease 0.2s;
+}
+
+.main-btn:hover {
+  background: steelblue;
+  cursor: pointer;
+}
+
+.actor-search-input  {
+  width: 200px;
+}
+.actor-search-input > input , .actor-search-input > button {
+  width: 200px;
+}
+
+.actor-search-input > .main-btn {
+  margin: 5px 0;
+}
+
+.actor-search-input > input {
+  border: 1px solid grey;
+  padding: 10px 5px;
+  z-index: 10;
+}
+
+.actor-suggestions {
+  width: 200px;
+  position: relative;
+  top: -34px;
+}
+
+.actor-suggestion-label {
+  display: block;
+  border-bottom: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  padding: 5px;
+  background: white;
+}
+
+.actor-suggestion-label:first-child {
+  border-top: 1px solid grey;
+}
+
+.actor-suggestion-label:hover {
+  background: #eee;
+  cursor: pointer;
+}
+
+.actor-suggestion-radio-btn {
+  opacity: 0;
+}
+
+ul {
+  display: flex !important;
+}
+
+svg{
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  display:inline-block;
+}
